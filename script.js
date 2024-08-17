@@ -6,12 +6,22 @@ const scoreBtn = document.querySelector('#show-score-btn');
 let startTime, endTime, totalTimeTaken;
 
 const sentences = [
+    "The quick brown fox jumps over the lazy dog, while the sun sets in the west and the stars begin to twinkle in the night sky.",
+    "A journey of a thousand miles begins with a single step, but it's important to keep moving forward, even when the path seems difficult and unclear.",
+    "In the heart of the forest, the sound of leaves rustling and birds chirping creates a serene atmosphere, perfect for reflection and meditation on life's mysteries.",
+    "Technology has rapidly advanced over the past few decades, transforming the way we communicate, work, and live, making our lives more connected than ever before.",
+    "Learning to code is like learning a new language; it requires practice, patience, and persistence, but the rewards are worth the effort in the end.",
+    "The ocean waves crash against the shore, bringing with them a sense of peace and tranquility, reminding us of the vastness and beauty of nature.",
+    "She picked up the old book, its pages yellowed with age, and began to read, losing herself in the story of a distant time and place.",
+    "A strong foundation in basic principles is essential for success in any field, whether it be science, art, business, or any other area of expertise.",
+    "As the rain poured down, the streets glistened with reflections of city lights, creating a magical and almost surreal atmosphere in the bustling urban landscape.",
+    "Creativity is the spark that ignites innovation, leading to new ideas and solutions that can change the world for the better, one step at a time.",
     "Words are good because that is what we use everyday. Ummm.... fast fingers is sooooooo good. Fidgets spinners are so popular anyways a story",
     "Digby The Littlest Duckling, Digby was the littlest duckling you've ever seen. He hatched from a tiny egg and did not grow",
     "Now that you have a feeling for the keyboard and typing easy words, you will move on to full sentences with capitalization.",
-    "Take your time and focus on keeping your eyes off of your keyboard!",
-    "If you're visiting this page, you're likely here because you're searching for a random sentence. Sometimes a random word just isn't enough, and that is where the random sentence generator comes into play. By inputting the desired number, you can make a list of as many random sentences as you want or need. Producing random sentences can be helpful in a number of different ways."
+    "Take your time and focus on keeping your eyes off of your keyboard!"
 ];
+
 
 const calculateTotalTypingTime = (time) => {
     let totalWords = typing_ground.value.trim();
